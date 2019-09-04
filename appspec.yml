@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/release 
+    destination: /home/release/1.0.0
 hooks:
   ApplicationStart:
     - location: scripts/codedeploy_start.sh
